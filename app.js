@@ -1,3 +1,5 @@
+import "tailwindcss/tailwind.css"
+
 var express = require('express')
 var app = express()
 
