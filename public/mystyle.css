@@ -1,19 +1,19 @@
 @import url("//unpkg.com/element-ui@2.15.3/lib/theme-chalk/index.css");
 
 .bg-vita {
-  background-color: #7420bc !important;
+  background-color:#409eff !important;
 }
 
 .btn-vita {
   color: #ffffff !important;
-  background-color: #7420bc !important;
-  border-color: #7420bc !important;
+  background-color:#409eff !important;
+  border-color:#409eff !important;
 }
 
 .btn-outline-vita {
-  color: #7420bc !important;
+  color:#409eff !important;
   background-color: #ffffff !important;
-  border-color: #7420bc !important;
+  border-color:#409eff !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -55,7 +55,7 @@
 }
 
 .alert-vita {
-  color: #7420bc;
+  color:#409eff;
   background-color: #ffe7ff;
   border-color: #ffcde7;
 }

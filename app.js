@@ -19,4 +19,14 @@ app.get('/index', function(req,res) {
     res.sendFile(__dirname + "/public/index.html")
 })
 
+app.get('/register.html', function(req,res) {
+    res.sendFile(__dirname + "/public/register.html")
+})
+
+
+app.get('/login.html', function(req,res) {
+    res.sendFile(__dirname + "/public/login.html")
+})
+
+
 app.use(express.static('public'))

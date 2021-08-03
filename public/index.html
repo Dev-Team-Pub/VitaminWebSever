@@ -42,18 +42,22 @@
             <h1 class="font-weight-bold">하루 비타민</h1>
         </span>
     </div>
-
-    <div id="app">
-        <el-button @click="visible = true">Button</el-button>
-        <el-dialog :visible.sync="visible" title="Hello world">
-            <p>Try Element</p>
-        </el-dialog>
+    <div id="register">
+        <el-col :span="8">
+        <el-form ref="form" :model="form" label-width="120px">
+            <el-form-item label="ID">
+                <el-input v-model="form.name"></el-input>
+            </el-form-item>
+            <el-form-item label="PASSWORD">
+                <el-input v-model="form.name"></el-input>
+            </el-form-item>
+            <el-form-item>
+                <el-button type="primary" @click="onSubmit">로그인</el-button>
+                <el-button onclick="window.location.href='/register.html'" >회원가입</el-button>
+            </el-form-item>
+        </el-form>
+    </el-col>
     </div>
-
-    <button type="button" class="btn btn-outline-vita btn-block" onclick="window.location.href='/register.html'">
-        회원가입
-    </button>
-
     <div class="searchfilter" id="searchfilter">
         <el-button @click="drawer = true" type="primary" style="margin-left: 20px;">
             필터
