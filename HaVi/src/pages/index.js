@@ -7,12 +7,12 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="하비 (하루비타민)" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/havi_logo.png"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
